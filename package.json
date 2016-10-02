@@ -1,6 +1,6 @@
 {
-  "name": "default-light-syntax",
-  "description": "Default light syntax theme",
+  "name": "default-dark-syntax",
+  "description": "Default dark syntax theme",
   "theme": "syntax",
   "styleSheets": ["default.less"]
 }
