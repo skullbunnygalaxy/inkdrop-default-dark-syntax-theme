@@ -1,1 +1,1 @@
-# Default light syntax theme for Inkdrop Markdown Editor
+# Default dark syntax theme for Inkdrop Markdown Editor
