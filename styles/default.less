@@ -15,10 +15,11 @@
   .CodeMirror-gutters {
     // Gutter to the left
     background-color: @base00;
+    border-right: 1px solid @base06;
   }
   .CodeMirror-linenumber {
     // Line numbers in the gutter
-    color: @base03;
+    color: @base06;
   }
   .CodeMirror-selected {
     // Highlighed text
@@ -55,6 +56,9 @@
     border-color: @base06;
     background-color: @base06;
     color: @base02;
+  }
+  .CodeMirror .CodeMirror-linewidget img.inline-widget {
+    background: rgba(0,0,0,0.1);
   }
   .cm-searching {
     // Ctrl + F results
