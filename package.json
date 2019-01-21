@@ -2,5 +2,8 @@
   "name": "default-dark-syntax",
   "description": "Default dark syntax theme",
   "theme": "syntax",
-  "styleSheets": ["default.less"]
+  "styleSheets": ["default.less"],
+  "engines": {
+    "inkdrop": "^3.25.2"
+  }
 }
