@@ -3,8 +3,16 @@
   "name": "default-dark-syntax",
   "description": "Default dark syntax theme",
   "theme": "syntax",
-  "styleSheets": ["default.less"],
+  "scripts": {
+    "build": "lessc styles/less/default.less ./styles/index.css"
+  },
+  "styleSheets": [
+    "index.css"
+  ],
   "engines": {
     "inkdrop": "^4.x"
+  },
+  "devDependencies": {
+    "less": "^3.11.3"
   }
 }
