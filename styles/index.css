@@ -53,6 +53,9 @@
   background-color: rgba(165, 69, 67, 0.4);
   color: white !important;
 }
+.editor .CodeMirror .cm-url {
+  color: #6987AF;
+}
 .editor .CodeMirror .cm-atom,
 .editor .CodeMirror .cm-formatting-list.cm-variable-3,
 .editor .CodeMirror .cm-string,
