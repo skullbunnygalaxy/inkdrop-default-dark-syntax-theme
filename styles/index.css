@@ -3,48 +3,48 @@
   /* Active Line Highlight support */
 }
 .editor .CodeMirror {
-  background-color: #2E3235;
+  background-color: #1E1E3F;
 }
 .editor .CodeMirror-scroll,
 .editor .CodeMirror-dialog {
-  color: #DDDDDD;
+  color: #FAEFA5;
 }
 .editor .CodeMirror-gutters {
   background-color: transparent;
   border-right: 1px solid rgba(255, 255, 255, 0.1);
 }
 .editor .CodeMirror-linenumber {
-  color: #808080;
+  color: #FF628C;
 }
 .editor .CodeMirror-selected {
-  background-color: #808080;
+  background-color: #FF628C;
 }
 .editor .CodeMirror-focused .CodeMirror-selected {
-  background-color: #000000;
+  background-color: #B362FF;
 }
 .editor .CodeMirror-cursor {
-  border-left: 1px solid #808080;
+  border-left: 1px solid #FF628C;
 }
 .editor .CodeMirror-matchingbracket,
 .editor .CodeMirror-matchingtag {
-  background: #B9D2FF !important;
-  color: #808080 !important;
-  border-bottom: 1px solid #A54543 !important;
+  background: #6943FF !important;
+  color: #FF628C !important;
+  border-bottom: 1px solid #b32a7e !important;
 }
 .editor .CodeMirror-foldgutter-open:after {
-  color: #b0b0b0;
+  color: #FFEE80;
 }
 .editor .CodeMirror-foldgutter-folded:after {
-  color: #d0d0d0;
+  color: #FAD000;
 }
 .editor .CodeMirror.over-gutter .CodeMirror-foldgutter-open:after,
 .editor .CodeMirror-activeline .CodeMirror-foldgutter-open:after {
-  color: #808080;
+  color: #FF628C;
 }
 .editor .CodeMirror-foldmarker {
-  border-color: #808080;
-  background-color: #808080;
-  color: #B9D2FF;
+  border-color: #FF628C;
+  background-color: #FF628C;
+  color: #6943FF;
 }
 .editor .CodeMirror .CodeMirror-linewidget img.inline-widget {
   background: rgba(0, 0, 0, 0.1);
@@ -54,14 +54,14 @@
   color: white !important;
 }
 .editor .CodeMirror .cm-url {
-  color: #6987AF;
+  color: #A5FF90;
 }
 .editor .CodeMirror .cm-atom,
 .editor .CodeMirror .cm-formatting-list.cm-variable-3,
 .editor .CodeMirror .cm-string,
 .editor .CodeMirror .cm-string-2,
 .editor .CodeMirror .cm-hr {
-  color: #8abeb7;
+  color: #FF9D00;
 }
 .editor .CodeMirror .cm-number,
 .editor .CodeMirror .cm-attribute,
@@ -70,20 +70,20 @@
 }
 .editor .CodeMirror .cm-def,
 .editor .CodeMirror .cm-property {
-  color: #b5bd68;
+  color: #9EFFFF;
 }
 .editor .CodeMirror .cm-variable {
-  color: #808080;
+  color: #FF628C;
 }
 .editor .CodeMirror .cm-keyword,
 .editor .CodeMirror .cm-formatting-list.cm-variable-2,
 .editor .CodeMirror .cm-operator,
 .editor .CodeMirror .cm-meta,
 .editor .CodeMirror .cm-bracket {
-  color: #cc99cc;
+  color: #B362FF;
 }
 .editor .CodeMirror .cm-comment {
-  color: #808080;
+  color: #FF628C;
   font-style: italic;
 }
 .editor .CodeMirror .cm-error,
@@ -94,28 +94,28 @@
   opacity: 0.3;
 }
 .editor .CodeMirror .cm-header {
-  color: #DDDDDD;
+  color: #FAD000;
 }
 .editor .CodeMirror .cm-link {
-  color: #6987AF;
+  color: #A5FF90;
   text-underline-position: under;
 }
 .editor .CodeMirror .cm-rangeinfo {
-  color: #b5bd68;
+  color: #9EFFFF;
 }
 .editor .CodeMirror .cm-builtin {
-  color: #6987AF;
+  color: #A5FF90;
 }
 .editor .CodeMirror .cm-qualifier,
 .editor .CodeMirror .cm-tag {
   color: #fda331;
 }
 .editor .CodeMirror .cm-quote {
-  color: #cc99cc;
+  color: #B362FF;
   font-style: italic;
 }
 .editor .CodeMirror .cm-whitespace::before {
-  color: #808080;
+  color: #FF628C;
   opacity: 0.4;
 }
 .editor .CodeMirror .cm-formatting-quote,
@@ -127,25 +127,25 @@
   color: #fda331;
 }
 .editor .CodeMirror .cm-em {
-  color: #6fb3d2;
+  color: #A5FF90;
 }
 .editor .CodeMirror .CodeMirror-code > div > pre > span::after,
 .editor .CodeMirror .CodeMirror-line > span::after {
-  color: #808080;
+  color: #FF628C;
   opacity: 0.4;
 }
 .editor .CodeMirror .cm-inline-code {
   background: rgba(0, 0, 0, 0.1);
-  color: #b0b0b0;
+  color: #FFEE80;
 }
 .editor .CodeMirror .gfm-codeblock-bg.CodeMirror-linebackground {
   background: rgba(0, 0, 0, 0.1);
 }
 .editor .CodeMirror .cm-table-sep,
 .editor .CodeMirror .table-row.table-row-1 {
-  color: #cc99cc;
+  color: #B362FF;
 }
 .editor .CodeMirror-activeline-background,
 .editor .CodeMirror-activeline-gutter {
-  background-color: rgba(185, 210, 255, 0.1) !important;
+  background-color: rgba(105, 67, 255, 0.13) !important;
 }
